@@ -1,0 +1,10 @@
+void main() {
+
+  //according to ascii table c comes before than e thats why if side1<side2
+  //than value comes in negative ex:-1. Else side1>side2 than value is in 
+  // positive ex:1
+  print("zaam".compareTo("eve")==1);
+
+  //97 101 with codeUnitAt command u can check chracter value in ascii table
+  print("g".codeUnitAt(0));
+}
